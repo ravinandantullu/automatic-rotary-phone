@@ -1,10 +1,23 @@
-body{
-    background-color: sandybrown;
+body {
+	background: url(./images/background1.jpg);
+
+	/* Full height */
+	height: 100%;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.image {
+	width: 80%;
+	height: 250px;
 }
